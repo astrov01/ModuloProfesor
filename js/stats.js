@@ -138,10 +138,10 @@ Morris.Donut({
 Morris.Donut({
     element: 'hero-donut2',
     data: [
-        {label: 'Google', value: 25 },
-        {label: 'Yahoo', value: 40 },
-        {label: 'Bing', value: 25 },
-        {label: 'Yandex', value: 10 }
+        {label: 'Realiza tarea', value: 25 },
+        {label: 'No realiza tarea', value: 40 },
+        {label: 'Nunca entro a la plataforma', value: 25 },
+        {label: 'Dudas con plataforma', value: 10 }
     ],
     colors: ["#30a1ec", "#76bdee", "#c4dafe"],
     formatter: function (y) { return y + "%" }
