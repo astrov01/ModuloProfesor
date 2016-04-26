@@ -104,12 +104,11 @@ doPlot("right");
 Morris.Bar({
     element: 'hero-bar',
     data: [
-        {device: '1', sells: 136},
-        {device: '3G', sells: 1037},
-        {device: '3GS', sells: 275},
-        {device: '4', sells: 380},
-        {device: '4S', sells: 655},
-        {device: '5', sells: 1571}
+        {device: 'Juan', sells: 136},
+        {device: 'Victor', sells: 1037},
+        {device: 'Javier', sells: 275},
+        {device: 'Rito', sells: 380},
+        {device: 'Alejandro', sells: 655}
     ],
     xkey: 'device',
     ykeys: ['sells'],
@@ -125,10 +124,9 @@ Morris.Bar({
 Morris.Donut({
     element: 'hero-donut',
     data: [
-        {label: 'Direct', value: 25 },
-        {label: 'Referrals', value: 40 },
-        {label: 'Search engines', value: 25 },
-        {label: 'Unique visitors', value: 10 }
+        {label: 'Asistencia', value: 35 },
+        {label: 'Faltas', value: 40 },
+        {label: 'Justificante medico', value: 25 }
     ],
     colors: ["#30a1ec", "#76bdee", "#c4dafe"],
     formatter: function (y) { return y + "%" }
